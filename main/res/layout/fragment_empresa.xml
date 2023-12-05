@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".Empresa">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:text="Empresa"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:background="#182254"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nome_empresa"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da Empresa" />
+    <TextView
+        android:id="@+id/descricao_empresa"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição" />
+    <TextView
+        android:id="@+id/detalhes_da_vaga_empresa"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhes da vaga" />
+    <TextView
+        android:id="@+id/salario_empresa"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salario" />
+
+    <TextView
+        android:id="@+id/cargo_empresa"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargo" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candidatar"/>
+
+</LinearLayout>

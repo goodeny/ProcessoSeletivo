@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cadastro">
+
+    <fragment
+        android:id="@+id/cadastro"
+        android:name="com.example.processoseletivo.Cadastro"
+        android:label="fragment_cadastro"
+        tools:layout="@layout/fragment_cadastro" >
+        <action
+            android:id="@+id/action_cadastro_to_candidato"
+            app:destination="@id/candidato" />
+        <action
+            android:id="@+id/action_cadastro_to_empresa"
+            app:destination="@id/empresa" />
+    </fragment>
+    <fragment
+        android:id="@+id/candidato"
+        android:name="com.example.processoseletivo.Candidato"
+        android:label="fragment_candidato"
+        tools:layout="@layout/fragment_candidato" />
+    <fragment
+        android:id="@+id/empresa"
+        android:name="com.example.processoseletivo.Empresa"
+        android:label="fragment_empresa"
+        tools:layout="@layout/fragment_empresa" />
+</navigation>
